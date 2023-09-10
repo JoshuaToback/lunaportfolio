@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo">Luis Luna</div>
+          <div className="logo">Luis Luna</div>
         <div>
           <ul className="nav-links">
             <li>
@@ -41,7 +41,7 @@ function Navbar() {
         </div>
       </nav>
       <nav id="hamburger-nav">
-        <div>
+        <div className="hamburger-items">
           <div className="logo">Luis Luna</div>
           <div className="hamburger-menu">
             <div className={`hamburger-icon ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>

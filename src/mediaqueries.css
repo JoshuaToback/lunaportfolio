@@ -1,10 +1,58 @@
+/* Media query for screens up to 1200px wide */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
-        display: none;
+      display: none;
     }
-
+  
     #hamburger-nav {
-        display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #fff; /* Background color for the mobile menu */
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000; /* Ensure it's above other content */
     }
-
-}
+  
+    .hamburger-items {
+      display: flex;
+      align-items: center;
+    }
+  
+    .logo {
+      margin-right: 20px;
+      font-size: 24px;
+    }
+  
+    .hamburger-icon {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+  
+    .menu-links {
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    .menu-links.open {
+      display: flex;
+    }
+  
+    .menu-links a {
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+  
+    .menu-links a:hover {
+      background-color: #555; /* Background color on hover */
+    }
+  }
+  

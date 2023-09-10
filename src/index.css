@@ -19,29 +19,24 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
 display: grid;
+box-sizing: border-box;
 place-items: center;
-height: 100vh;
+height: 96vh;
+margin: 0 10rem;
 font-size: 32px;
 font-weight: bold;
+min-height: fit-content;
 }
 
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
 }
 
 a {
-  text-decoration: none;
-  text-decoration-color: white;
+  cursor: pointer;
+  user-select: none;
 }
 
-a:hover {
-  color: grey;
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
-}
 
 ul {
   margin: 0;
