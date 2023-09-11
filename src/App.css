@@ -130,16 +130,16 @@ a:hover {
 }
 
 
-/* Hero */
+/* Section Styling */
 
-.hero {
+.section {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
 }
 
-.hero_pic-container {
+.section_pic-container {
   display: flex;
   height: 400px;
   width: 400px;
@@ -147,21 +147,25 @@ a:hover {
   border-radius: 50%;
 }
 
-.hero_pic-container img {
+.section_pic-container img {
   border-radius: 50%;
 }
 
-.hero__text {
+.section__text {
   align-self: center;
   text-align: center;
 }
 
-.hero__text p {
+.section__text p {
   font-weight: 600;
 }
 
-.hero__text__p1 {
+.section__text__p1 {
   text-align: center;
+
+}
+
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -218,3 +222,50 @@ a:hover {
 .btn-container {
   gap: 1rem;
 }
+
+/* About Section */
+
+.about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+  display: flex;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Image Carousel */
+
