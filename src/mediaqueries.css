@@ -54,5 +54,14 @@
     .menu-links a:hover {
       background-color: #555; /* Background color on hover */
     }
+
+    .project-details-container {
+      flex-wrap: wrap; /* Allow wrapping to a new line */
+      justify-content: center; /* Center-align the project containers */
+    }
+  
+    .details-container {
+      flex: 0 0 100%; /* Make each project container take up 100% width on smaller screens */
+    }
   }
   
