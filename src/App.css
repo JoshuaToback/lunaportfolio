@@ -1,6 +1,53 @@
-/* .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
+/* Section Styling */
+
+.section_pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  border-radius: 50%;
+}
+
+.section_pic-container img {
+  border-radius: 50%;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Social Icons */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
 
 /* Desktop Nav */
 
@@ -129,7 +176,6 @@ a:hover {
   transform: none;
 }
 
-
 #socials-container {
   display: flex;
   justify-content: center;
@@ -137,9 +183,14 @@ a:hover {
   gap: 1rem;
 }
 
+/* Hero */
 
-
-/* Hero Buttons */
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
 
 .btn-container {
   display: flex;
@@ -190,7 +241,8 @@ a:hover {
   flex-direction: column;
 }
 
-.about-containers, .about-details-container {
+.about-containers,
+.about-details-container {
   display: flex;
 }
 
@@ -210,39 +262,29 @@ a:hover {
   overflow: hidden; /* Hide overflow content */
 }
 
-.project-details-container {
-  display: flex;
-  justify-content: flex-start; /* Start from the left */
-  flex-wrap: nowrap; /* Prevent wrapping to a new line */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 20px; /* Adjust the gap between project containers */
-  padding: 20px 0; /* Add padding for spacing */
-  margin: 0 -10px; /* Adjust margin to prevent spacing issues */
-}
+/* PROJECTS  */
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the image vertically */
-  text-align: center;
-}
-
-.project-img {
-  max-height: 400px; /* Limit the maximum height of images */
-  max-width: 100%; /* Ensure images don't exceed their container's width */
-  transition: transform 0.3s ease-in-out; /* Add smooth transition for image scaling */
+.projects {
+  position: relative;
 }
 
 .color-container {
-  flex: 0 0 calc(25% - 40px); /* Set the width for each project container */
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
 }
 
-/* Style for the active slide */
-.active-slide {
-  transform: scale(1.1); /* Increase size of the active slide */
-  border-color: rgb(53, 53, 53); /* Add a border to the active slide */
+.project-img {
+  border-radius: 2rem;
+  width: fit-content;
+  height: 30%;
 }
 
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-
 
 /* Experience */
 
@@ -251,7 +293,7 @@ a:hover {
 }
 
 .experience-sub-title {
-  color: rgb(85,85,85);
+  color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -298,7 +340,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250,250,250);
+  background: (250, 250, 250);
   margin: 2rem;
   padding: 0.5rem;
 }
@@ -312,7 +354,7 @@ article .icon {
 }
 
 .contact-info-container p {
-  font-size:larger;
+  font-size: larger;
 }
 
 /* Footer */

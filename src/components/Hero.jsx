@@ -12,7 +12,7 @@ function Hero() {
     linkedin: "https://www.linkedin.com/in/luis-luna-9b5910267/"
   }
   return (
-    <div className="section">
+    <div className="hero">
       <div className="section_pic-container">
         <img src={FLGL} alt="Luis Luna Profile Picture" />
       </div>

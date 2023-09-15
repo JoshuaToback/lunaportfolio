@@ -1,67 +1,196 @@
-/* Media query for screens up to 1200px wide */
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-  
-    #hamburger-nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      background-color: #fff; /* Background color for the mobile menu */
-      padding: 10px 20px;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000; /* Ensure it's above other content */
-    }
-  
-    .hamburger-items {
-      display: flex;
-      align-items: center;
-    }
-  
-    .logo {
-      margin-right: 20px;
-      font-size: 24px;
-    }
-  
-    .hamburger-icon {
-      display: flex;
-      flex-direction: column;
-      cursor: pointer;
-    }
-  
-  
-    .menu-links {
-      flex-direction: column;
-      position: absolute;
-      top: 60px; /* Adjust as needed */
-      left: 0;
-      width: 100%;
-      padding: 10px 0;
-    }
-  
-    .menu-links.open {
-      display: flex;
-    }
-  
-    .menu-links a {
-      text-decoration: none;
-      padding: 10px 20px;
-    }
-  
-    .menu-links a:hover {
-      background-color: #555; /* Background color on hover */
-    }
-
-    .project-details-container {
-      flex-wrap: wrap; /* Allow wrapping to a new line */
-      justify-content: center; /* Center-align the project containers */
-    }
-  
-    .details-container {
-      flex: 0 0 100%; /* Make each project container take up 100% width on smaller screens */
-    }
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
   }
-  
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+  .section_pic-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .section_pic-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section__text {
+    text-align: center;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .section-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section__text__p1 {
+    font-size: 18px;
+  }
+
+  .section__text__p2 {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  section h3 {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+
+  .about-containers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-img  {
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    border-radius: 0;
+  }
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .nav-links.open {
+    max-height: 300px;
+  }
+
+  .logo {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+  }
+}
