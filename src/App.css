@@ -132,11 +132,11 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  margin-left: 50px;
 }
 
 .menu-links a {
   display: block;
-  padding: 10px;
   text-align: center;
   font-size: 1.5rem;
   color: black;

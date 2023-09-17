@@ -8,12 +8,12 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   }
 
-  const menuClass = isMenuOpen ? "menu-links.open" : "menu-links";
+  const menuClass = `menu-links ${isMenuOpen ? "open" : ""}`;
 
   return (
     <>
       <nav id="desktop-nav">
-          <div className="logo">Luis Luna</div>
+        <div className="logo">Luis Luna</div>
         <div>
           <ul className="nav-links">
             <li>
@@ -44,7 +44,10 @@ function Navbar() {
         <div className="hamburger-items">
           <div className="logo">Luis Luna</div>
           <div className="hamburger-menu">
-            <div className={`hamburger-icon ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
+            <div
+              className={`hamburger-icon ${isMenuOpen ? "open" : ""}`}
+              onClick={toggleMenu}
+            >
               <span></span>
               <span></span>
               <span></span>
