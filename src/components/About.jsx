@@ -19,8 +19,7 @@ function About() {
     <div className="about">
       <p className="section__text__p1">Get To Know More</p>
       <p className="title">About Me</p>
-      <div className="image-carousel">
-      </div>
+      <div className="image-carousel"></div>
       <div className="section-container">
         <div className="about-details-container">
           <div className="about-containers">
@@ -28,23 +27,28 @@ function About() {
               <img src={experience} alt="experience-icon" className="icon" />
               <h3>Experience</h3>
               <p>
-                X+ Years <br /> Graphic Design
+                3+ Years <br /> Digital Artist
               </p>
             </div>
             <div className="details-container">
               <img src={education} alt="education-icon" className="icon" />
               <h3>Education</h3>
               <p>
-                B.A Bachelor's Degree <br /> University
+                B.A Bachelor's Degree <br /> Ana G. Mendez University
               </p>
             </div>
           </div>
           <div className="text-container">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-              voluptas dolores eaque repellat magni ipsam enim beatae iusto,
-              illum ab saepe nam, aliquam quidem ea rerum adipisci, incidunt
-              praesentium assumenda.
+            <p className="about-text">
+              Luis Luna is a digital artist and graphic designer based in the
+              island of Puerto Rico that yearns for new experiences and learning
+              opportunities. Starting in 2020 he has dedicated most of his time
+              to improving his artistic skill set and style with the goal of one
+              day creating his multiple pieces of art for a big project that
+              will put his name out in the world. As an artist he specializes in
+              character focused pieces and designs that put the attention on the
+              subject as well as some experience in logo and visual design from
+              his university studies setting the foundation for his works.
             </p>
           </div>
         </div>

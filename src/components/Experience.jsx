@@ -14,43 +14,29 @@ function Experience() {
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Logos </h3>
+                  <p>Med Level</p>
                 </div>
               </article>
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Branding </h3>
+                  <p>Med Level</p>
                 </div>
               </article>
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Video Editing </h3>
+                  <p>High Level</p>
                 </div>
               </article>
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
-                </div>
-              </article>
-              <article>
-                <img src={check} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
-                </div>
-              </article>
-              <article>
-                <img src={check} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Moodboard </h3>
+                  <p>Med Level</p>
                 </div>
               </article>
             </div>
@@ -61,43 +47,22 @@ function Experience() {
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Backgrounds </h3>
+                  <p>Low Level</p>
                 </div>
               </article>
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Character Design </h3>
+                  <p>Med to High Level</p>
                 </div>
               </article>
               <article>
                 <img src={check} alt="checkmark" className="icon" />
                 <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
-                </div>
-              </article>
-              <article>
-                <img src={check} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
-                </div>
-              </article>
-              <article>
-                <img src={check} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
-                </div>
-              </article>
-              <article>
-                <img src={check} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Skill </h3>
-                  <p>Skill Level</p>
+                  <h3>Concept Art </h3>
+                  <p>Med Level</p>
                 </div>
               </article>
             </div>

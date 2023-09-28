@@ -153,6 +153,8 @@
     border-radius: 0;
   }
 }
+
+
 /* Mobile Menu */
 @media (max-width: 768px) {
   #desktop-nav {
@@ -181,7 +183,6 @@
     overflow: hidden;
     font-size: 14px; /* Increased font size for better readability */
     transition: max-height 0.3s ease-in-out;
-    background-color: #fff; /* Added background color */
     padding: 10px; /* Added padding for spacing */
   }
 

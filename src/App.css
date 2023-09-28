@@ -127,7 +127,6 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -246,6 +245,10 @@ a:hover {
   display: flex;
 }
 
+.about-text p {
+  font-size: .5rem;
+}
+
 /* Projects */
 #projects {
   position: relative;
@@ -319,6 +322,14 @@ article {
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+}
+
+article h3 {
+  font-size: 1.5rem;
+}
+
+article p {
+  font-size: 1.25rem;
 }
 
 article .icon {
