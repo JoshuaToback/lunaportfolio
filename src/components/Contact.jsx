@@ -5,7 +5,7 @@ function Contact() {
 
   const LuisLinks = {
     twitter: 'https://twitter.com/foolygh0uly/',
-    email: 'mailto:casting.openmicstudios@gmail.com',
+    email: 'mailto:sebastianluna120@gmail.com',
     linkedin: "https://www.linkedin.com/in/luis-luna-9b5910267/"
   }
   return (
@@ -19,7 +19,7 @@ function Contact() {
         </div>
         <div className='contact-info-container'>
         <SocialIcon url={LuisLinks.email} bgColor='#000' className='icon contact-icon' />
-        <p><a href={LuisLinks.email}>Example@gmail.com</a></p>
+        <p><a href={LuisLinks.email}>sebastianluna120@gmail.com</a></p>
 
         </div>
         <div className='contact-info-container'>
